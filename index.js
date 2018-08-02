@@ -70,8 +70,17 @@ export default class TextMarquee extends PureComponent {
     // always stop timers when unmounting, common source of crash
     this.clearTimeout();
   }
+  
+  componentWillReceiveProps(nextProps) {
+    if (this.props.children !== nextProps.children) {
+      this.stopAnimation()
+      this.clearTimeout()
+      this.invalidateMetrics()
+      this.start()
+    }
+  }
 
-  startAnimation = (timeDelay) => {
+  startAnimation = (timeDelay, stopAnimation) => {
     if (this.state.animating) {
       return
     }
