@@ -82,7 +82,7 @@ export default class TextMarquee extends PureComponent {
 
   startAnimation = (timeDelay, stopAnimation) => {
     if (this.state.animating) {
-      return
+      this.stopAnimation()
     }
     this.start(timeDelay)
   }
