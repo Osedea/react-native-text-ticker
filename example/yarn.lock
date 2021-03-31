@@ -4868,9 +4868,9 @@ react-native-scripts@1.11.1:
     color "^2.0.1"
     lodash "^4.16.6"
 
-react-native-text-ticker@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/react-native-text-ticker/-/react-native-text-ticker-0.9.0.tgz#fe808cb86ca37c72c87cc97c9b537d6a6874ea5a"
+react-native-text-ticker@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/react-native-text-ticker/-/react-native-text-ticker-0.13.0.tgz#56f38187ac88689481672939367a7badcb9fe4e3"
 
 react-native-vector-icons@4.5.0:
   version "4.5.0"
@@ -6424,8 +6424,8 @@ xtend@~2.1.1:
     object-keys "~0.4.0"
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
 
 yallist@^2.0.0, yallist@^2.1.2:
   version "2.1.2"
